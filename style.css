@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Gilroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+#elem{
+    height: 100px;
+    width:100%;
+    /* background-color: red; */
+    border: 3px solid #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+#elem h1{
+    font-size: 5vw;
+    position: relative;
+    /* z-index: 1; */
+    mix-blend-mode: difference;
+}
+
+#elem img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-position: center;
+    position: absolute;
+    /* transform: translate(-50%,-50%); */
+    opacity: 0.3;
+    transition: all linear 0.3s;
+}
